@@ -15,14 +15,15 @@ body {
  color: black;
  font-size: 20px;
  font-family: "Times New Roman", ariel; 
- line-height: 1.5;  
+ line-height: 1.5;
+ width: 900px;
 }
 
 h1, h2, h3, h4 {
  color: rgb(204,204,153);
  background-color: rgb(68,0,0);
  font: italic bold 50px/2 helvetica, ariel, sans-serif;
- text-align: center;
+ text-align: left;
  text-decoration: underline;
 }
 
@@ -31,12 +32,18 @@ body p strong em {
  background-color: rgb(204,204,153);
 }
 
+header h1 strong em {
+ width: 250px;
+}
+
 ol {
  font-size: 18px;
 }
 
 img {
  opacity: 0.9;
+ border-style: solid;
+ border-color: rgb(68,0,0); 
  }
  
 p {
@@ -75,10 +82,10 @@ a:active{
  color: rgb(51,255,255);
 }
 
-ul li{
-list-style-type: circle;
+header nav ul li{
+list-style-type: square;
 }
 
-a:link{}
-
-a:link{}
+body ul li{
+list-style-type: circle;
+}
