@@ -1,0 +1,84 @@
+/*Heading Color Swatch------------------------------------------------------------------------------------
+	heading#1
+	light gold		rgb		cccc99		rgb(204,204,153)
+	heading-background
+	dark red1		rgb		440000		rgb(68,0,0)
+	
+	heading#2
+	dark red2		rgb		550000		rgb(85,0,0)
+	heading background
+	light gold		rgb		cccc99		rgb(204,204,153)
+
+________________________________________________________________________________________________*/
+
+body {
+ color: black;
+ font-size: 20px;
+ font-family: "Times New Roman", ariel; 
+ line-height: 1.5;  
+}
+
+h1, h2, h3, h4 {
+ color: rgb(204,204,153);
+ background-color: rgb(68,0,0);
+ font: italic bold 50px/2 helvetica, ariel, sans-serif;
+ text-align: center;
+ text-decoration: underline;
+}
+
+body p strong em {
+ color: rgb(85,0,0);
+ background-color: rgb(204,204,153);
+}
+
+ol {
+ font-size: 18px;
+}
+
+img {
+ opacity: 0.9;
+ }
+ 
+p {
+ font-size: 22px;
+ }
+
+article {
+ font-family: courier;
+}
+
+footer {
+ font-size: 16px;
+}
+
+/*Link Color Swatch------------------------------------------------------------------------------------
+	dark pink		rgb		ffcc00		rgb(255,204,0)
+	dark blue		rgb		333399		rgb(51,51,153)
+	dark red		rgb		aa0000		rgb(170,0,0)
+	teal			rgb		33ffff		rgb(51,255,255)
+
+________________________________________________________________________________________________*/
+
+a:link{
+ color: rgb(51,51,153);
+}
+
+a:visited{
+ color: rgb(255,204,0);
+}
+
+a:hover{
+ color: rgb(170,0,0); 
+}
+
+a:active{
+ color: rgb(51,255,255);
+}
+
+ul li{
+list-style-type: circle;
+}
+
+a:link{}
+
+a:link{}
