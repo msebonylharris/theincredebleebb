@@ -16,9 +16,10 @@ body {
  font-size: 20px;
  font-family: "Times New Roman", ariel; 
  line-height: 1.5;
- width: 900px;
+ width: 950px;
  background-color: #cc9;
  border: 4px solid #400;
+ margin-left: 20px;
 }
 
 h1, h2, h3, h4 {
@@ -46,6 +47,17 @@ img {
  opacity: 0.9;
  border-style: solid;
  border-color: rgb(68,0,0); 
+ border-radius: 6px;
+ box-shadow: 3px 3px 3px #111
+ padding-right: 1px;
+ padding-left: 1px;
+ padding-top: 1px;
+ padding-bottom: 1px;
+ margin-right: 5px;
+ margin-left: 5px;
+ margin-top: 5px;
+ margin-bottom: 5px;
+ box-align: right;
  }
  
 p {
@@ -68,13 +80,6 @@ footer {
 	dark red		rgb		aa0000		rgb(170,0,0)
 	teal			rgb		33ffff		rgb(51,255,255)
 
--Background to use later
-.article p {
- background-color: #CC9;
- border-width: 3px;
- border-style: solid;
- border-color: #400
-}
 ________________________________________________________________________________________________*/
 
 a:link{
