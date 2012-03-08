@@ -17,12 +17,14 @@ body {
  font-family: "Times New Roman", ariel; 
  line-height: 1.5;
  width: 900px;
+ background-color: #cc9;
+ border: 4px solid #400;
 }
 
 h1, h2, h3, h4 {
  color: rgb(204,204,153);
  background-color: rgb(68,0,0);
- font: italic bold 50px/2 helvetica, ariel, sans-serif;
+ font: italic bold 38px/2 helvetica, ariel, sans-serif;
  text-align: left;
  text-decoration: underline;
 }
@@ -50,20 +52,29 @@ p {
  font-size: 22px;
  }
 
-article {
+div article {
  font-family: courier;
-}
+ background-color: #cc9;
+ border: 4px solid #400;
+ }
 
 footer {
  font-size: 16px;
 }
 
 /*Link Color Swatch------------------------------------------------------------------------------------
-	dark pink		rgb		ffcc00		rgb(255,204,0)
+	light gold		rgb		ffcc00		rgb(255,204,0)
 	dark blue		rgb		333399		rgb(51,51,153)
 	dark red		rgb		aa0000		rgb(170,0,0)
 	teal			rgb		33ffff		rgb(51,255,255)
 
+-Background to use later
+.article p {
+ background-color: #CC9;
+ border-width: 3px;
+ border-style: solid;
+ border-color: #400
+}
 ________________________________________________________________________________________________*/
 
 a:link{
@@ -71,11 +82,11 @@ a:link{
 }
 
 a:visited{
- color: rgb(255,204,0);
+ color: rgb(170,0,0);
 }
 
 a:hover{
- color: rgb(170,0,0); 
+ color: rgb(255,204,0); 
 }
 
 a:active{
