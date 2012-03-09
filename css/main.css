@@ -1,4 +1,4 @@
-/*Heading Color Swatch------------------------------------------------------------------------------------
+/*heading color swatch------------------------------------------------------------------------------------
 	heading#1
 	light gold		rgb		cccc99		rgb(204,204,153)
 	heading-background
@@ -11,42 +11,80 @@
 
 ________________________________________________________________________________________________*/
 
+/*this section is dedicated to the body-----------------------------------------------------*/
+
 body {
+ float: left;
  color: black;
  font-size: 20px;
- font-family: "Times New Roman", ariel; 
+ font-family: "times new roman", ariel; 
  line-height: 1.5;
- width: 950px;
+ width:935px;
  background-color: #cc9;
- border: 4px solid #400;
- margin-left: 20px;
-}
-
+ border: 4px solid #111;
+ padding-right: 10px;
+ padding-left: 10px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ margin-right: 10px;
+ margin-left: 10px;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ background-image: url("../images/ring.jpg");
+ background-position: 500%;
+ background-color: #500; 
+ }
+ 
 h1, h2, h3, h4 {
- color: rgb(204,204,153);
- background-color: rgb(68,0,0);
- font: italic bold 38px/2 helvetica, ariel, sans-serif;
- text-align: left;
+ color: #fff;
+ background-color: #008;
+ width: 450px;
+ font: italic bold 30px/2 helvetica, ariel, sans-serif;
  text-decoration: underline;
 }
 
-body p strong em {
+h5 {
+color: rgb(68,0,0)
+font: italic bold 35px/2 helvetica, ariel, sans-serif;
+text-shadow: 3px 5px 3px #111;
+}
+/*
+body header p strong em {
  color: rgb(85,0,0);
- background-color: rgb(204,204,153);
+ background-color: #fff;
+ width: 300px;
+ padding-right: 1px;
+ padding-left: 1px;
+ padding-top: 1px;
+ padding-bottom: 1px;
+}
+*/
+
+/*this section is for the main navigation--------------------------------------------------*/
+
+header nav ul li{
+ display: inline;
+ background-color: #fff;
+ border: 4px solid #008;
+ width: 900px;
 }
 
-header h1 strong em {
- width: 250px;
-}
-
-ol {
- font-size: 18px;
+main_nav {
+ float: left;
+ padding-right: 10px;
+ padding-left: 10px;
+ padding-top: 10px;
+ padding-bottom: 1px;
+ margin-right: 5px;
+ margin-left: 5px;
+ margin-top: 5px;
+ margin-bottom: 5px;
 }
 
 img {
- opacity: 0.9;
+ display: inline;
  border-style: solid;
- border-color: rgb(68,0,0); 
+ border-color: #111; 
  border-radius: 6px;
  box-shadow: 3px 3px 3px #111
  padding-right: 1px;
@@ -58,20 +96,91 @@ img {
  margin-top: 5px;
  margin-bottom: 5px;
  box-align: right;
- }
- 
-p {
- font-size: 22px;
- }
+}
+
+body div section img {
+ opacity: 0.95;
+ padding-right: 5px;
+ padding-left: 5px;
+ padding-top: 5px;
+ padding-bottom: 5px;
+ margin-right: 5px;
+ margin-left: 5px;
+ margin-top: 5px;
+ margin-bottom: 5px; 
+}
+ol {
+ font-size: 18px;
+ text-align: left; 
+}
 
 div article {
  font-family: courier;
- background-color: #cc9;
- border: 4px solid #400;
- }
+ background-color: #fff;
+ border: 4px solid #111;
+ padding-right: 5px;
+ padding-left: 5px;
+ padding-top: 5px;
+ padding-bottom: 5px;
+ margin-right: 5px;
+ margin-left: 5px;
+ margin-top: 5px;
+ margin-bottom: 5px; 
+}
 
-footer {
- font-size: 16px;
+div article section {
+ -ms-column-count: 3;
+ -ms-column-gap: 30px; 
+ -moz-column-count: 3;
+ -moz-column-gap: 30px;
+ -web-column-count: 3;
+ -web-column-gap: 30px;
+ -o-column-count: 3;
+ -o-column-gap: 30px;
+ -khtml-column-count: 3;
+ -khtml-column-gap: 30px;
+}
+
+body div aside {
+ font-family: "times new roman", ariel;
+ background-color: #008;
+ color: #fff;
+ border: 4px solid #111;
+ padding-right: 5px;
+ padding-left: 5px;
+ padding-top: 5px;
+ padding-bottom: 5px;
+ margin-right: 5px;
+ margin-left: 5px;
+ margin-top: 5px;
+ margin-bottom: 5px; 
+}
+
+body section, footer {
+ background-color: #fff;
+ background-color: #fff;
+ border: 4px solid #111;
+ padding-right: 5px;
+ padding-left: 5px;
+ padding-top: 5px;
+ padding-bottom: 5px;
+ margin-right: 5px;
+ margin-left: 5px;
+ margin-top: 5px;
+ margin-bottom: 5px; 
+}
+
+.photo_gal, .contact {
+ background-color: #fff;
+ border: 4px solid #111;
+ padding-right: 5px;
+ padding-left: 5px;
+ padding-top: 5px;
+ padding-bottom: 5px;
+ margin-right: 5px;
+ margin-left: 5px;
+ margin-top: 5px;
+ margin-bottom: 5px; 
 }
 
 /*Link Color Swatch------------------------------------------------------------------------------------
@@ -80,6 +189,10 @@ footer {
 	dark red		rgb		aa0000		rgb(170,0,0)
 	teal			rgb		33ffff		rgb(51,255,255)
 
+footer {
+ font-size: 16px;
+ float: left;
+}
 ________________________________________________________________________________________________*/
 
 a:link{
