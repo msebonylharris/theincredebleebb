@@ -33,8 +33,8 @@ h1, h2, h3, h4 {
 h5 {
   color: #000;
   font-size: 30px;
-  font: italic 50px/1 helvetica, ariel, sans-serif;
-  text-shadow: 2px 3px 2px #111;
+  font: italic normal 50px/1 helvetica, ariel, sans-serif;
+  text-shadow: 3px 3px 4px #111;
 }
 
 
