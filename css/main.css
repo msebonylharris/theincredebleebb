@@ -1,188 +1,188 @@
 /*this section is dedicated to the body-----------------------------------------------------*/
 
 body {
- float: left;
- color: black;
- font-size: 20px;
- font-family: "times new roman", ariel; 
- line-height: 1.5;
- width:935px;
- background-color: #fff;
- border: 4px solid #111;
- padding-right: 10px;
- padding-left: 10px;
- padding-top: 10px;
- padding-bottom: 10px;
- margin-right: 10px;
- margin-left: 10px;
- margin-top: 10px;
- margin-bottom: 10px;
- background-image: url("../images/ring.jpg");
- background-position: fff%;
- background-color: #fff; 
+  float: left;
+  color: black;
+  font-size: 20px;
+  font-family: "times new roman", ariel; 
+  line-height: 1.5;
+  width:935px;
+  background-color: #fff;
+  border: 4px solid #111;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-image: url("../images/ring.jpg");
+  background-position: fff%;
+  background-color: #fff; 
  }
  
 h1, h2, h3, h4 {
- color: #fff;
- background-color: #008;
- width: 450px;
- font: italic bold 30px/2 helvetica, ariel, sans-serif;
- text-decoration: underline;
+  color: #fff;
+  background-color: #008;
+  width: 450px;
+  font: italic bold 30px/2 helvetica, ariel, sans-serif;
+  text-decoration: underline;
 }
 
 h5 {
-color: #000;
-font-size: 30px;
-font: italic 50px/1 helvetica, ariel, sans-serif;
-text-shadow: 2px 3px 2px #111;
+  color: #000;
+  font-size: 30px;
+  font: italic 50px/1 helvetica, ariel, sans-serif;
+  text-shadow: 2px 3px 2px #111;
 }
 
 
 /*this section is for the main navigation--------------------------------------------------*/
 
 header nav ul li{
- display: inline;
- background-color: #fff;
- border: 4px solid #008;
- width: 900px;
+  display: inline;
+  background-color: #fff;
+  border: 4px solid #008;
+  width: 900px;
 }
 
 main_nav {
- float: left;
- padding-right: 10px;
- padding-left: 10px;
- padding-top: 10px;
- padding-bottom: 1px;
- margin-right: 5px;
- margin-left: 5px;
- margin-top: 5px;
- margin-bottom: 5px;
+  float: left;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 1px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 img {
- display: inline;
- border-style: solid;
- border-color: #111; 
- border-radius: 6px;
- box-shadow: 3px 3px 3px #111
- padding-right: 1px;
- padding-left: 1px;
- padding-top: 1px;
- padding-bottom: 1px;
- margin-right: 5px;
- margin-left: 5px;
- margin-top: 5px;
- margin-bottom: 5px;
- box-align: right;
+  display: inline;
+  border-style: solid;
+  border-color: #111; 
+  border-radius: 6px;
+  box-shadow: 3px 3px 3px #111
+  padding-right: 1px;
+  padding-left: 1px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  box-align: right;
 }
 
 body div section img {
- opacity: 0.95;
- padding-right: 5px;
- padding-left: 5px;
- padding-top: 5px;
- padding-bottom: 5px;
- margin-right: 5px;
- margin-left: 5px;
- margin-top: 5px;
- margin-bottom: 5px; 
+  opacity: 0.95;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px; 
 }
 ol {
- font-size: 18px;
- text-align: left; 
+  font-size: 18px;
+  text-align: left; 
 }
 
 div article {
- font-family: courier;
- background-color: #fff;
- border: 4px solid #111;
- padding-right: 5px;
- padding-left: 5px;
- padding-top: 5px;
- padding-bottom: 5px;
- margin-right: 5px;
- margin-left: 5px;
- margin-top: 5px;
- margin-bottom: 5px; 
+  font-family: courier;
+  background-color: #fff;
+  border: 4px solid #111;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px; 
 }
 
 div article section {
- -ms-column-count: 3;
- -ms-column-gap: 30px; 
- -moz-column-count: 3;
- -moz-column-gap: 30px;
- -web-column-count: 3;
- -web-column-gap: 30px;
- -o-column-count: 3;
- -o-column-gap: 30px;
- -khtml-column-count: 3;
- -khtml-column-gap: 30px;
+  -ms-column-count: 3;
+  -ms-column-gap: 30px; 
+  -moz-column-count: 3;
+  -moz-column-gap: 30px;
+  -web-column-count: 3;
+  -web-column-gap: 30px;
+  -o-column-count: 3;
+  -o-column-gap: 30px;
+  -khtml-column-count: 3;
+  -khtml-column-gap: 30px;
 }
 
 body div aside {
- font-family: "times new roman", ariel;
- background-color: #008;
- color: #fff;
- border: 4px solid #111;
- padding-right: 5px;
- padding-left: 5px;
- padding-top: 5px;
- padding-bottom: 5px;
- margin-right: 5px;
- margin-left: 5px;
- margin-top: 5px;
- margin-bottom: 5px; 
+  font-family: "times new roman", ariel;
+  background-color: #008;
+  color: #fff;
+  border: 4px solid #111;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px; 
 }
 
 body section, footer {
- background-color: #fff;
- background-color: #fff;
- border: 4px solid #111;
- padding-right: 5px;
- padding-left: 5px;
- padding-top: 5px;
- padding-bottom: 5px;
- margin-right: 5px;
- margin-left: 5px;
- margin-top: 5px;
- margin-bottom: 5px; 
+  background-color: #fff;
+  background-color: #fff;
+  border: 4px solid #111;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px; 
 }
 
 .photo_gal, .contact {
- background-color: #fff;
- border: 4px solid #111;
- padding-right: 5px;
- padding-left: 5px;
- padding-top: 5px;
- padding-bottom: 5px;
- margin-right: 5px;
- margin-left: 5px;
- margin-top: 5px;
- margin-bottom: 5px; 
+  background-color: #fff;
+  border: 4px solid #111;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px; 
 }
 
 /*Link Color ________________________________________________________________________*/
 
 a:link{
- color: rgb(51,51,153);
+  color: rgb(51,51,153);
 }
 
 a:visited{
- color: rgb(170,0,0);
+  color: rgb(170,0,0);
 }
 
 a:hover{
- color: rgb(255,204,0); 
+  color: rgb(255,204,0); 
 }
 
 a:active{
- color: rgb(51,255,255);
+  color: rgb(51,255,255);
 }
 
 header nav ul li{
-list-style-type: square;
+  list-style-type: square;
 }
 
 body ul li{
-list-style-type: circle;
+  list-style-type: circle;
 }
