@@ -1,16 +1,3 @@
-/*heading color swatch------------------------------------------------------------------------------------
-	heading#1
-	light gold		rgb		cccc99		rgb(204,204,153)
-	heading-background
-	dark red1		rgb		440000		rgb(68,0,0)
-	
-	heading#2
-	dark red2		rgb		550000		rgb(85,0,0)
-	heading background
-	light gold		rgb		cccc99		rgb(204,204,153)
-
-________________________________________________________________________________________________*/
-
 /*this section is dedicated to the body-----------------------------------------------------*/
 
 body {
@@ -19,8 +6,8 @@ body {
  font-size: 20px;
  font-family: "times new roman", ariel; 
  line-height: 1.5;
- width:935px;
- background-color: #cc9;
+ width:934px;
+ background-color: #fff;
  border: 4px solid #111;
  padding-right: 10px;
  padding-left: 10px;
@@ -45,20 +32,11 @@ h1, h2, h3, h4 {
 
 h5 {
 color: rgb(68,0,0)
-font: italic bold 35px/2 helvetica, ariel, sans-serif;
-text-shadow: 3px 5px 3px #111;
+font-size: 30px;
+font: italic 50px/1 helvetica, ariel, sans-serif;
+text-shadow: 2px 3px 2px #111;
 }
-/*
-body header p strong em {
- color: rgb(85,0,0);
- background-color: #fff;
- width: 300px;
- padding-right: 1px;
- padding-left: 1px;
- padding-top: 1px;
- padding-bottom: 1px;
-}
-*/
+
 
 /*this section is for the main navigation--------------------------------------------------*/
 
@@ -183,17 +161,7 @@ body section, footer {
  margin-bottom: 5px; 
 }
 
-/*Link Color Swatch------------------------------------------------------------------------------------
-	light gold		rgb		ffcc00		rgb(255,204,0)
-	dark blue		rgb		333399		rgb(51,51,153)
-	dark red		rgb		aa0000		rgb(170,0,0)
-	teal			rgb		33ffff		rgb(51,255,255)
-
-footer {
- font-size: 16px;
- float: left;
-}
-________________________________________________________________________________________________*/
+/*Link Color ________________________________________________________________________*/
 
 a:link{
  color: rgb(51,51,153);
