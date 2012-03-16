@@ -74,7 +74,6 @@ body section ul li{
 	display: block;
 	outline: 0;
 	}
-
 	
 /*the css below is for the article section Why by from The Incredebble Ebb, Note This Also includes 
 the header (h2) ----------------------------------------------------------------------------------*/
@@ -184,7 +183,7 @@ body ul li{
 /*===============================MAIN NAV BUTTONS=================================================*/
 /*The css below is for the navigational button style______________________________________________*/
 .main_nav{
-   	float: right;
+   	float: left;
    	width: 33%;
    	display: inline;
    	margin: 0 auto;
@@ -212,6 +211,7 @@ body ul li{
 
 .contact{
 	float: left;
+	border: 4px solid #008;
 	width: 40%; /*= 440px*/
 	margin: .909090909090909%;
 }
@@ -222,5 +222,14 @@ body ul li{
 	margin: .909090909090909%;
 }
 
+#mainphoto img{
+	border: 4px solid #008;
+	width: 34.0909090909091%;
+	max-width: 100%
+	float: left;
+}
 
+.body_1{
+	float: left;
+}
 
