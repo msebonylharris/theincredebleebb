@@ -52,8 +52,8 @@ body header nav ul{
 img{
     display: inline;
   	border: .090909090909091% /*.0625em or 1px/16px */ solid #111;
-  	box-shadow: 2.727272727272727% /*1.875em */ #111 /* .1875em = 3px/16px */;
-  	padding: .9090909090909% /* 10px/16px  or .625em */;
+  	box-shadow: .1875em .1875em .5em /*1.875em */ #111 /* .1875em = 3px/16px */;
+  	padding: 1.9090909090909%;
   	margin: .454545454545455% /* .3125em or 5px/16px*/;  
   	box-align: left;
 }
