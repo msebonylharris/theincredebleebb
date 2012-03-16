@@ -25,7 +25,7 @@ h1, h2, h3, h4{
 /*the css below is for the header (h5) section on the Summer Collection Page----------------------*/
 h5{
   	color: #000;
-  	font: italic normal .454545454545455% /* .3125em or 5px/16px*//1 helvetica, ariel, sans-serif; 
+  	font: italic normal 200% /* .3125em or 5px/16px*//1 helvetica, ariel, sans-serif; 
   	text-shadow: 4.363636363636364% /*3em or 4px*/ #111;
   	text-align: center;
 }
@@ -209,4 +209,18 @@ body ul li{
   	border-style: solid;
   	background-color: #000;
 }
+
+.contact{
+	float: left;
+	width: 40%; /*= 440px*/
+	margin: .909090909090909%;
+}
+
+.footer{
+	float: left;
+	width 40% /*=440px*/
+	margin: .909090909090909%;
+}
+
+
 
