@@ -3,11 +3,11 @@ body{
   	float: left;
   	color: black;
   	font: 100% /1 /* 20px/16px */  "times new roman", ariel;
-  	width: 80%;
+  	width: 100%; /* 1100px or 68.75em */
   	background-color: #fff;
-  	border: .25em solid #111; /* 4px/16px */
-  	padding: .625em .625em .625em .625em /* 10px/16px */;
-  	margin: .625em .625em .625em .625em /* 10px/16px */;
+  	border: .363636363636364% /* .25em or 4px/16px */ solid #111; /* 4px/16px */
+  	padding: .9090909090909% /* 10px/16px  or .625em */;
+  	margin: .9090909090909% /* 10px/16px  or .625em */;
   	background: url('../images/ring3.png') rgba(0, 0, 0, 0.35) repeat 20%;
  }
 
@@ -16,15 +16,17 @@ h1, h2, h3, h4{
   	color: #fff;
   	background-color: #008;
   	width: 100%;
-  	font: italic bold 1.875em /* 30px/16px *//2 helvetica, ariel, sans-serif;
+  	font: italic bold 150% /2 helvetica, ariel, sans-serif;
   	text-decoration: underline;
   	float: right;
+  	overflow: hidden;
+}
 
 /*the css below is for the header (h5) section on the Summer Collection Page----------------------*/
 h5{
   	color: #000;
-  	font: italic normal 3.125em/1 helvetica, ariel, sans-serif; /* 50px/16px *//1 helvetica, ariel, sans-serif;
-  	text-shadow: 30% 30% 40% #111;
+  	font: italic normal .454545454545455% /* .3125em or 5px/16px*//1 helvetica, ariel, sans-serif; 
+  	text-shadow: 4.363636363636364% /*3em or 4px*/ #111;
   	text-align: center;
 }
 
@@ -34,7 +36,7 @@ h5{
 body header nav ul{
   	display: inline;
   	background-color: #fff;
-  	border: .25em  /* 4px/16px */ solid #008;
+  	border: .363636363636364% /* .25em or 4px/16px */ solid #008;
   	width: 95%;
   	float: left;
   	display: inline;
@@ -49,10 +51,10 @@ body header nav ul{
 /*this section is for the images------------------------------------------------------------------*/
 img{
     display: inline;
-  	border: .0625em /* 1px/16px */ solid #111;
-  	box-shadow: .1875em .1875em .1875em #111 /* .1875em = 3px/16px */;
-  	padding: .625em .625em .625em .625em /* 10px/16px */;
-  	margin: .3125em .3125em .3125em .3125em /*5px/16px*/;  
+  	border: .090909090909091% /*.0625em or 1px/16px */ solid #111;
+  	box-shadow: 2.727272727272727% /*1.875em */ #111 /* .1875em = 3px/16px */;
+  	padding: .9090909090909% /* 10px/16px  or .625em */;
+  	margin: .454545454545455% /* .3125em or 5px/16px*/;  
   	box-align: left;
 }
 
@@ -68,7 +70,7 @@ body section ul li{
 	padding: 0;
 	display: inline-block;
 	overflow: hidden;
-	padding: .3125em;
+	padding: .454545454545455% /* .3125em or 5px/16px*/;
 	display: block;
 	outline: 0;
 	}
@@ -79,29 +81,31 @@ the header (h2) ----------------------------------------------------------------
 div article {
   	font-family: courier;
   	background-color: #fff;
-  	border: .25em /* 4px/16px */ solid #111;
-  	padding: .3125em .3125em .3125em .3125em /*5px/16px*/;
-  	margin: .3125em .3125em .3125em .3125em /*5px/16px*/; 
+  	border: .363636363636364% /* .25em or 4px/16px */ solid #111;
+  	padding: .454545454545455% /* .3125em or 5px/16px*/;
+  	margin: .454545454545455% /* .3125em or 5px/16px*/; 
   	float: left;
 }
 
-/*the css below is for the article section Why by from The Incredebble Ebb------------------------*/
-div article section {
-  -ms-column-count: 3;
-  -ms-column-gap: 1.875em /* 30px/16px */;
-  -moz-column-count: 3;
-  -moz-column-gap: 1.875em /* 30px/16px */;
-  -web-column-count: 3;
-  -web-column-gap: 1.875em /* 30px/16px */;
-  -o-column-count: 3;
-  -o-column-gap: 1.875em /* 30px/16px */;
-  -khtml-column-count: 3;
-  -khtml-column-gap: 1.875em /* 30px/16px */;
-}
+/*the css below is for the article section Why by from The Incredebble Ebb------------------------
+--------------------------2.727272727272727% /*1.875em */ /* 30px/16px -------------------------*/;
+/*div article section {
+  	-ms-column-count: 3;
+  	-ms-column-gap: 2.727272727272727%;
+  	-moz-column-count: 3;
+  	-moz-column-gap: 2.727272727272727%;
+  	-web-column-count: 3;
+  	-web-column-gap: 2.727272727272727%;
+  	-o-column-count: 3;
+  	-o-column-gap: 2.727272727272727%;
+  	-khtml-column-count: 3;
+  	-khtml-column-gap: 2.727272727272727%;
+} 
+===== I decided not to go with the columns, but I wanted to leave the conversions and the css=====*/
 
 /*the css below is for the featured piece section------------------------------------------------*/
 body div section img {
-  opacity: 0.95;
+  	opacity: 0.95;
 }
 
 /*=======================================MAIN NAVIGATION AREA=====================================*/
@@ -110,7 +114,7 @@ body div section img {
 }
 .main_nav{
   	display: inline;
-  	border: .25em  /* 4px/16px */ solid #008;
+  	border: .363636363636364% /* .25em or 4px/16px */ solid #008;
   	width: 95%;
   	list-style-type: none;
 }
@@ -118,35 +122,35 @@ body div section img {
 /*========================================FOOTER SECTION==========================================*/
 /*the css below is for the footer section---------------------------------------------------------*/
 body section, footer {
-  -ms-background-color: #fff;
-  -moz-background-color: #fff;
-  -web-background-color: #fff;
-  -o-background-color: #fff;
-  -khtml-background-color: #fff;
-  background-color: #fff;
-  padding: .3125em .3125em .3125em .3125em /*5px/16px*/;
-  margin: .3125em .3125em .3125em .3125em /*5px/16px*/;
+  	-ms-background-color: #fff;
+ 	-moz-background-color: #fff;
+  	-web-background-color: #fff;
+  	-o-background-color: #fff;
+  	-khtml-background-color: #fff;
+  	background-color: #fff;
+  	padding: .454545454545455% /* .3125em or 5px/16px*/;
+  	margin: .454545454545455% /* .3125em or 5px/16px*/;
 }
 
 /*========================== SUMMER COLLECTIONS PAGE/ CONTACT PAGE================================*/
 /*the css below is for the summer collection "Why should I purchase from The Incredeble Ebb Section
 and the contact section on the contact page-------------------------------------------------------*/
 .photo_gal, .contact {
-  -ms-background-color: #fff;
-  -moz-background-color: #fff;
-  -web-background-color: #fff;
-  -o-background-color: #fff;
-  -khtml-background-color: #fff;
-  background-color: #fff;
-  border: .25em solid #111;  /* 4px/16px */ 
-  padding: .3125em .3125em .3125em .3125em /*5px/16px*/;
-  margin: .3125em .3125em .3125em .3125em /*5px/16px*/;
+  	-ms-background-color: #fff;
+  	-moz-background-color: #fff;
+  	-web-background-color: #fff;
+  	-o-background-color: #fff;
+  	-khtml-background-color: #fff;
+  	background-color: #fff;
+  	border: .363636363636364% /* .25em or 4px/16px */ solid #111;
+  	padding: .454545454545455% /* .3125em or 5px/16px*/;
+  	margin: .454545454545455% /* .3125em or 5px/16px*/;
 }
 
 body section ul li{
-  border:1px dashed #fff;
-  list-style-type: none;
-  display: inline;
+  	border:090909090909091% /*.0625em or 1px/16px */ dashed #fff;
+  	list-style-type: none;
+  	display: inline;
 }
 
 
@@ -180,28 +184,29 @@ body ul li{
 /*===============================MAIN NAV BUTTONS=================================================*/
 /*The css below is for the navigational button style______________________________________________*/
 .main_nav{
-   float: right;
-   width: 33%;
-   display: inline;
-   margin: 0 auto;
-   list-style-type: none;
-   padding: 0;
-  overflow: hidden;
-  background: 008;
+   	float: right;
+   	width: 33%;
+   	display: inline;
+   	margin: 0 auto;
+   	list-style-type: none;
+   	padding: 0;
+  	overflow: hidden;
+  	background: 008;
 }
 
 /*The css below is for the anchors________________________________________________________________*/
 .main_nav a {
-  font-size: 2em;
-  text-decoration: none;
-  text-align: center;
-  margin-right: 1.5em;
-  width: 95%;
-  height: 120%;
-  display: inline-block;
-  position:relative;
-  line-height: 120%;
-  border-radius: 40%;
-  border-style: solid;
-  background-color: #000;
+  	font-size: 110%;
+  	text-decoration: none;
+  	text-align: center;
+  	margin-right: 2.181818181818182% /*1.5em or 24px*/;
+  	width: 85%;
+  	height: 440%;
+  	display: inline-block;
+  	position:relative;
+  	line-height: 120%;
+  	border-radius: 90%;
+  	border-style: solid;
+  	background-color: #000;
 }
+
