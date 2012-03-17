@@ -233,3 +233,60 @@ body ul li{
 	float: left;
 }
 
+/*=======================================MEDIA QUIERES=========================================*/
+
+/*----------------------This is for devices up to 960px --------------------------------------*/
+@media screen and (min-width: 768px) and (max-width:959) {
+		body{
+		width: auto;
+		float: none;
+		}
+
+		img{
+		width: auto;
+		float: none;
+		}
+
+}
+
+/*-------------------------This is for devices up to 700px--------------------------------------*/
+@media screen and (min-width: 480px) and (max-width:767) {
+	#body_1{
+	float: right;
+	}
+	
+	build_ring{
+	display: none;
+	}
+	
+	company_guarantee{
+	display: none;
+}
+
+/*--------------------------------This is for devices up to 480px--------------------------------*/
+@media screen and (max-width:479) {
+	#body_1{
+	display: none;
+	}
+	
+	build_ring{
+	display: none;
+	}
+	
+	company_guarantee{
+	display: none;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
