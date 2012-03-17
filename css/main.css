@@ -56,6 +56,10 @@ img{
   	padding: 1.9090909090909%;
   	margin: .454545454545455% /* .3125em or 5px/16px*/;  
   	box-align: left;
+  	border: 4px solid #008;
+	width: *22.727272727272727%;
+	max-width: 100%;
+	float: left;
 }
 
 body section ul{
@@ -221,17 +225,101 @@ body ul li{
 	width 40% /*=440px*/
 	margin: .909090909090909%;
 }
-
+/*=================These Next Sections control the page flow of the index.html page===============*/
+/*----------------------This Section controls the photo img's of the page. -----------------------*/
 #mainphoto img{
 	border: 4px solid #008;
-	width: 34.0909090909091%;
-	max-width: 100%
+	width: *34.0909090909091%;
+	max-width: 100%;
 	float: left;
 }
 
-.body_1{
+#ringphoto img{
+	border: 4px solid #008;
+	width: *22.727272727272727%;
+	max-width: 100%;
 	float: left;
 }
+
+#featuredphoto img{
+	border: 4px solid #008;
+	width: *22.727272727272727%;
+	max-width: 100%;
+	float: left;
+}
+/*----------This Section makes the text float around the main photo img of the page. ------------*/
+.body_1, .body_3{
+	float: left;
+	width: 60%;
+	padding: .9090909090909% /* 10px/16px  or .625em */;
+  	margin: .9090909090909% /* 10px/16px  or .625em */;
+}
+
+/*======These next two sections of css improve the Company Guarantee Section of the Site==========*/
+/*----------This Section controls the border and header of the company guarantee section----------*/
+#company_guarantee, h4{
+	float: left;
+	border: 1px solid #008;
+	width: 50%;
+	height:100%
+	padding: .9090909090909% /* 10px/16px  or .625em */;
+  	margin: .9090909090909% /* 10px/16px  or .625em */;
+}
+
+/*======These next two sections of css improve the Featured Piece Section of the Site==========*/
+/*----------This Section controls the border and header of the Featured Piece section----------*/
+#featured_piece{
+	float:left;
+	width: 50%;
+	border: 4px solid #008;
+	padding: .9090909090909% /* 10px/16px  or .625em */;
+  	margin: .9090909090909% /* 10px/16px  or .625em */;
+}
+
+/*-This Section controls the way the text floats around the header of the Featured Piece section-*/
+#featured_piece p{
+	float: right;
+	width: 50%;
+	padding: .9090909090909% /* 10px/16px  or .625em */;
+  	margin: .9090909090909% /* 10px/16px  or .625em */;
+}
+
+/*----This Section controls the way the text floats around the header of the guarantee section----*/
+h4{
+	float:left;
+	width: 100%;
+}
+
+/*====These next two sections of css improve the Build your own Ring section of the Site========*/
+/*----------This Section controls the border and header of the build your own ring section-------*/
+#build_ring, h3{
+	float: left;
+	border: 4px solid #008;
+	width: 35%;
+}
+
+/*----This Section controls the way the text floats around the header of the guarantee section----*/
+h3{
+	width: 100%;
+}
+
+#why_buy{
+	float: left;
+	border: 1px solid #008;
+	width: 64%;
+}
+
+body footer{
+	float: right;
+	border: 1px solid #008;
+	width: 100%;
+}
+
+
+.body_4, .body_5 {
+  	padding: .454545454545455% /* .3125em or 5px/16px*/;
+}
+
 
 /*=======================================MEDIA QUIERES=========================================*/
 
@@ -261,22 +349,36 @@ body ul li{
 	
 	company_guarantee{
 	display: none;
+	}
+	
+	img{
+		width: auto;
+		float: none;
+		}
+
 }
 
 /*--------------------------------This is for devices up to 480px--------------------------------*/
 @media screen and (max-width:479) {
-	#body_1{
+	#why_buy{
 	display: none;
 	}
 	
-	build_ring{
+	.body_1{
 	display: none;
 	}
 	
-	company_guarantee{
+	#build_ring{
+	display: none;
+	}
+	
+	#company_guarantee{
 	display: none;
 	}
 
+	#featured_piece{
+	float: left;
+	}
 }
 
 
